@@ -13,14 +13,6 @@ public class Utils {
         return ChatColor.translateAlternateColorCodes('&', text);
     }
 
-    public static List<String> color(List<String> list){
-        if(list == null || list.isEmpty()) return new ArrayList<>();
-        for(int i = 0; i < list.size(); i++){
-            list.set(i, color(list.get(i)));
-        }
-        return list;
-    }
-
     public static boolean sendMessage(CommandSender sender, String message){
         if(sender == null || message == null || message.isEmpty()) return false;
         sender.sendMessage(fixColor(message));
