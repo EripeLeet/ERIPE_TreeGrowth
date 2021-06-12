@@ -1,0 +1,26 @@
+config-version: 0.1
+trees:
+  oak:
+    - "default1.schem"
+  big_oak:
+    - "default1.schem"
+  swamp:
+    - "default1.schem"
+  dark_oak:
+    - "default2.schem"
+  acacia: []
+  birch: []
+  tall_birch: []
+  spruce: []
+  mega_spruce: []
+  tall_spruce: []
+  jungle:
+    - "default3.schem"
+  jungle_bush: []
+  small_jungle: []
+  cocoa_tree: []
+  brown_mushroom: []
+  red_mushroom: []
+  chorus_plant: []
+  crimson_fungus: []
+  warped_fungus: []
